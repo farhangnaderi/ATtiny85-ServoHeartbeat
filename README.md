@@ -94,13 +94,13 @@ void receiveEvent(uint8_t howMany) {
     }
   }
 }
-License
+```
+## License
 
 This project is licensed under the MIT License. See the LICENSE file for details.
 Contributing
 
 Contributions are welcome! Please open an issue or submit a pull request for any changes or improvements.
-Contact
-
+## Contact
 Author: Farhang Naderi
 Email: farhang.naderi@uri.edu
