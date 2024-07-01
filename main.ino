@@ -1,3 +1,19 @@
+/*
+ * ATtiny85-Servo-Heartbeat-Controller
+ * 
+ * Author: Farhang Naderi
+ * Email: farhang.naderi@uri.edu
+ * License: MIT License
+ * Year: 2024
+ * 
+ * Description:
+ * This code runs on an ATtiny85 microcontroller to control the power to a servo rail based on
+ * heartbeat signals received via I2C communication. If a heartbeat signal is not received within
+ * a specified timeout period, the servo rail is powered down, and the ATtiny85 enters a low power
+ * sleep mode. When a heartbeat signal is received, the servo rail is powered on, and the ATtiny85
+ * remains active.
+ */
+
 #include <TinyWireS.h>
 #include <avr/sleep.h>
 
