@@ -30,7 +30,7 @@ This project provides code for an ATtiny85 microcontroller to control the power 
 
 1. Clone the repository:
     ```sh
-    git clone https://github.com/yourusername/ATtiny85-Servo-Heartbeat-Controller.git
+    git clone https://github.com/yourusername/ATtiny85-ServoHeartbeat.git
     ```
 
 2. Include the required libraries in your project:
